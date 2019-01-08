@@ -7,8 +7,8 @@ var sortObject = function(obj, fn) {
     var keys = _.sortBy(_.keys(obj), fn);
     var res = {};
 
-    _.forIn(keys, function(key) {
-        res[key] = obj[key];
+    _.forIn(keys, function(value, key) {
+        res[key] = value;
     })
 
     return res
@@ -17,7 +17,7 @@ var sortObject = function(obj, fn) {
 var serialize = function(obj) {
     var res = '';
     var mapValue = _.map(obj, function(value, key) {
-        return (key+'='+value)
+        return (key + '=' + value)
     });
 
     res = _.join(mapValue, '&');
