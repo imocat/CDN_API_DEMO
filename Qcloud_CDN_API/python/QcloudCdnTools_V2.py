@@ -168,6 +168,10 @@ class Cdn:
         self.parser.add_option('--offset', dest='offset', default='', help="offset")
         self.parser.add_option('--limit', dest='limit', default='',help="limit")
 
+    def CdnPusherV2(self):
+        self.parser.add_option('--urls', dest='urls', default=[], action="append", help="Flush the cache of these URLs(use multi --urls)")
+        self.parser.add_option('--urls-from', dest='urls_from', default="", metavar="FILE", help="Flush the cache of these URLs(one url per line)")
+
     def RefreshCdnUrl(self):
         self.parser.add_option('--urls', dest='urls', default=[], action="append", help="Flush the cache of these URLs(use multi --urls)")
         self.parser.add_option('--urls-from', dest='urls_from', default="", metavar="FILE", help="Flush the cache of these URLs(one url per line)")

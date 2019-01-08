@@ -10,6 +10,9 @@ python QcloudCdnTools_V2.py GetHostInfoByHost -u xxxxx -p xxxxxxx --hosts xxxxxx
 ## GetHostInfoById 
 python QcloudCdnTools_V2.py GetHostInfoById -u xxxxx -p xxxxxxx --ids 184736 --ids 206348
 
+## CdnPusherV2
+python QcloudCdnTools_V2.py CdnPusherV2 -u xxxxx -p xxxxxxx --urls http://xxxxxxxtang.sp.oa.com/test.php --urls http://xxxxxxxtang.sp.oa.com/test1.php 
+
 ## RefreshCdnUrl
 python QcloudCdnTools_V2.py RefreshCdnUrl -u xxxxx -p xxxxxxx --urls http://xxxxxxxtang.sp.oa.com/test.php --urls http://xxxxxxxtang.sp.oa.com/test1.php 
  
@@ -36,7 +39,6 @@ python QcloudCdnTools_V2.py AddCdnHost -u xxxxx -p xxxxxxx  --host evincai.oa.co
 
 ## OnlineHost
 python QcloudCdnTools_V2.py OnlineHost -u xxxxx -p xxxxxxx  --hostId 206092
-
 
 ## DeleteCdnHost
 python QcloudCdnTools_V2.py DeleteCdnHost -u xxxxx -p xxxxxxx  --hostId 81094

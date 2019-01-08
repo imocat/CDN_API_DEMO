@@ -40,6 +40,7 @@ qcloudSDK.config({
 // DescribleCdnHosts
 // GetHostInfoByHost
 // GetHostInfoById 
+// CdnPusherV2
 // RefreshCdnUrl
 // RefreshCdnDir
 // UpdateCache 
