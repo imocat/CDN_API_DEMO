@@ -52,6 +52,7 @@
 | ---------------------------------------- | ------------------- |
 | [GetCdnRefreshLog](https://www.qcloud.com/doc/api/231/%E6%9F%A5%E8%AF%A2%E5%88%B7%E6%96%B0%E7%BA%AA%E5%BD%95) | 查询指定时间区间内，刷新日志、刷新次数 |
 | [CdnPusherV2](https://cloud.tencent.com/document/product/228/15164) | 预热URL |
+| [CdnUrlPusher](https://cloud.tencent.com/document/product/228/12839) | 预热URL |
 | [RefreshCdnUrl](https://www.qcloud.com/doc/api/231/%E5%88%B7%E6%96%B0URL) | 刷新URL               |
 | [RefreshCdnDir](https://www.qcloud.com/doc/api/231/%E5%88%B7%E6%96%B0%E7%9B%AE%E5%BD%95) | 刷新目录                |
 
